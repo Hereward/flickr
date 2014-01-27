@@ -3,7 +3,7 @@ flickr
 
 Flickr Photo Gallery search app
 
-This is a web application which demonstrates the use of the Flickr Api to search for photos based on keywords.
+This is a web application which demonstrates the use of the Flickr api to search for photos based on keywords.
 
 NOTE: There is no validation on the form input.
 
