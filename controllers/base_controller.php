@@ -9,11 +9,8 @@ class Base_controller  {
     }
 
 
-
-
     public function render_view($data='') {
         $path = __DIR__."/../views/layouts/$this->layout.view.php";
-
         ob_start();
         include $path;
         $content = ob_get_contents();

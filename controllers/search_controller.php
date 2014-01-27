@@ -16,10 +16,5 @@ class Search_controller extends Base_controller {
         $this->render_view($data);
     }
 
-    public function image() {
-        $this->layout = 'main';
-        $this->view = 'image';
-    }
-
 }
 

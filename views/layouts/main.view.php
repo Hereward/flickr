@@ -50,10 +50,10 @@
 
 <?php
 
- $path = __DIR__."/../$this->view.view.php";
+$path = __DIR__."/../$this->view.view.php";
 
 //die("VIEW PATH = $path");
- include $path;
+include $path;
 ?>
 
 
@@ -61,8 +61,8 @@
 
 
 
-     <hr>
-     <footer>&copy; Eye of the Tiger Pty Ltd 2014</footer>
+    <hr>
+    <footer>&copy; Eye of the Tiger Pty Ltd 2014</footer>
 </div>
 
 

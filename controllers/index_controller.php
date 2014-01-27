@@ -8,7 +8,6 @@ class Index_controller extends Base_controller {
         $this->vars = $vars;
     }
 
-
     public function index() {
         $this->layout = 'main';
         $this->view = 'index';
@@ -16,7 +15,6 @@ class Index_controller extends Base_controller {
         $data['fruit'] = 'banana';
         $this->render_view($data);
     }
-
 
 
 }
